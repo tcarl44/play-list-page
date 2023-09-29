@@ -1,3 +1,7 @@
 .profile{
-    border-radius: 360%;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    width: 150px;
+    border-radius: 60%;
 }
