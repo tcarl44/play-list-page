@@ -1,14 +1,34 @@
 .profile{
     margin-top: 12px;
-    height: 100px;
+    height: 50px;
     justify-content: space-between;
-    width: 100px;
+    width: 50px;
     border-radius: 60%;
+}
+
+.icon{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: xx-large;
 }
 
 .sections{
     display: flex;
 
+}
+
+.favorite{
+    height: 40vh;
+    margin-left: 12px;
+}
+
+.may-like{
+    margin-left: 12px;
+    height: 40vh;
+    justify-content: space-between;
 }
 
 
