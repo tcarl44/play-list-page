@@ -1,7 +1,27 @@
 .profile{
-    display: flex;
+    margin-top: 12px;
     height: 100px;
     justify-content: space-between;
-    width: 150px;
+    width: 100px;
     border-radius: 60%;
+}
+
+.sections{
+    display: flex;
+
+}
+
+
+.split-1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 58, 58);
+}
+
+.split-2{
+    background-color: rgb(238, 217, 217);
+}
+
+.split-3{
+    background-color: rgb(181, 175, 175);
 }
