@@ -155,6 +155,16 @@ button{
     justify-content: space-between;
 }
 
+.play{
+   display: flex;
+   justify-content: space-between;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .split-1{
     width: 7%;
