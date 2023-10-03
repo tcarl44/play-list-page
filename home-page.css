@@ -1,9 +1,16 @@
 .profile{
     margin-top: 12px;
     height: 50px;
-    align-items: center;
+    /* text-align: center; */
+    /* align-items: center; */
     width: 50px;
     border-radius: 60%;
+}
+
+.profiles{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .icon{
@@ -13,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
     font-size: xx-large;
-    overflow: hidden;
+    /* overflow: hidden; */
     color: black;
 }
 
@@ -31,8 +38,9 @@ button{
     justify-content: space-between;
 }
 
-.sections{
+#containers{
     display: flex;
+    /* flex-wrap: wrap; */
 
 }
 
@@ -146,7 +154,7 @@ button{
     margin-top: 5px;
     margin-left: 12px;
     margin-right: 12px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .may-like{
@@ -163,6 +171,14 @@ button{
 .name{
     display: flex;
     justify-content: space-between;
+}
+
+.third-part{
+    /* display: flex; */
+    /* width: 5px; */
+    /* height: 5px; */
+    /* margin-left: 12px; */
+    text-align: center;
 }
 
 
